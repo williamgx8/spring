@@ -15,9 +15,17 @@
  */
 package org.mybatis.spring.mapper;
 
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 // implementation of MapperInterface to test conflicting types
 final class MapperImplementation implements MapperInterface {
   @Override
   public void method() {
+  }
+
+
+  public static void main(String[] args) {
+    ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("");
+    context.getBean("zhangsan");
   }
 }
