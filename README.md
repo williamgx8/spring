@@ -1,4 +1,4 @@
-MyBatis Spring Adapter
+MyBatis Spring Adapter （Spring和Mybatis整合源码解析）
 ======================
 
 [![Build Status](https://travis-ci.org/mybatis/spring.svg?branch=master)](https://travis-ci.org/mybatis/spring)
@@ -6,7 +6,9 @@ MyBatis Spring Adapter
 [![Dependency Status](https://www.versioneye.com/user/projects/5619b698a193340f2f000520/badge.svg?style=flat)](https://www.versioneye.com/user/projects/5619b698a193340f2f000520)
 [![Maven central](https://maven-badges.herokuapp.com/maven-central/org.mybatis/mybatis-spring/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.mybatis/mybatis-spring)
 [![License](http://img.shields.io/:license-apache-brightgreen.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
-
+<pre>
+重点分析两者的几种整合方式，该方式为spring动态创建bean的套路
+</pre>
 ![mybatis-spring](http://mybatis.github.io/images/mybatis-logo.png)
 
 MyBatis-Spring adapter is an easy-to-use Spring3 bridge for MyBatis sql mapping framework.
